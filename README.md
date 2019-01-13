@@ -70,11 +70,11 @@ Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create
 
 Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
 
-Click on New project and select Data Science as per below.
+Click on `New project` and select `Data Science` as per below.
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/new_project.png)
 
-Define the project by giving a Name and hit 'Create'.
+Define the project by giving a Name and hit `Create`.
 
 ![](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio/blob/master/doc/source/images/define_project.png)
 
@@ -118,16 +118,16 @@ There are several ways to execute the code cells in your notebook:
 
 ## 5. Get access tokens and consumer key to use Twitter Api.
 * Go to `https://developer.twitter.com/` and sign in using twitter login ID. If you don't have login credentials, then sign up.
-* Click on Apps(top right of the navigation bar)
+* Click on `Apps` (top right of the navigation bar)
 ![](doc/source/images/apps.png)
 
-* Click on create an app button.
+* Click on `Create an app` button.
 ![](doc/source/images/createanapp.png)
 
 * Follow the process, answer the questions and it should create your app.
 ![](doc/source/images/appcreationprocess.png)
 
-* Click on the details button and then click on `Keys and Tokens` and get the access tokens and consumer keys.
+* Click on the `Details` button and then click on `Keys and Tokens` and get the access tokens and consumer keys.
 ![](doc/source/images/tweeted.png)
 
 ![](doc/source/images/keysandtokens.png)
@@ -164,6 +164,6 @@ you will get a code which indicates the tweet with hashtags has been tweeted.
 
 # License
 
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the Developer [Certificate of Origin, Version 1.1 (DCO)] (https://developercertificate.org/) and the [Apache Software License, Version 2] (http://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the Developer [Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ASL FAQ link: http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN
