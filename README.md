@@ -46,7 +46,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 # Watch the Video
 
-
+[![](http://img.youtube.com/vi/oxDIXrDcQxc/hqdefault.jpg)](https://youtu.be/oxDIXrDcQxc)
 
 
 # Steps
