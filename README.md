@@ -115,7 +115,7 @@ There are several ways to execute the code cells in your notebook:
 
 ![](doc/source/images/keysandtokens.png)
 
-## 6. Analyze the results
+## 6. Sample Output
 
 Lets look at the summarization of the document. We can observe that all the key pointers are included in the summary. The text ranking algorithm has produced good results. 
 
