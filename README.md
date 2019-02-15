@@ -14,6 +14,9 @@ When the reader has completed this code pattern, they will understand how to:
 * Interpret the summary and visualization of the data.
 * Tweet it on twitter.
 
+# Architecture Diagram
+
+![](https://github.com/Neha-Setia/summarizingTheArticleAndTweetingIt/blob/master/doc/source/images/architecture.png)
 
 ## Flow
 
