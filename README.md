@@ -1,7 +1,4 @@
 # Text summarization of a Travel blog and tweeting it to increase the reach and expand business.
-Twitter’s Value for Marketing is not hidden from all of us. Twitter is like the “Swiss Army knife” of social media. Like the classic penknife, which contains a multifaceted toolset designed to serve a variety of functions, you can use Twitter for multiple purposes, depending on your business goals and needs. However, growing your Twitter account and turning it into an actual tool that generates leads and builds up your brand. Growing a real following on Twitter takes more than sending out Tweets whenever your company has a product being released or an upcoming event. It’s about engaging with your target audience and interacting with them. Hashtags are so darn important in doing so. A hashtag is a label used on social media sites that makes it easier to find information with a theme or specific content. Associations can use hashtags to reach their target audience and to help members filter information.
-
-Successful Twitter marketing is powerful. You can unlock new opportunities to grow your business online. If Twitter is used well, it can drive tons of traffic to your website. But you need to be creative when crafting tweets to promote your blog posts, videos, and other content. 
 
 In this Code Pattern We will demonstrate a methodology to summarize a blog using Watson Studio. We will make use of the existing Code Pattern [Text summarization and visualization using watson studio](https://github.com/IBM/text-summarization-and-visualization-using-watson-studio). You will get the details of the text summarization from the suggested code pattern. This Code Pattern focuses on extractive summarization of the travel blog, extracting keywords converting them into relevant hashtags and tweeting it on twitter. 
 
@@ -17,9 +14,8 @@ When the reader has completed this code pattern, they will understand how to:
 * Interpret the summary and visualization of the data.
 * Tweet it on twitter.
 
-# Architecture Diagram
 
-![](https://github.com/Neha-Setia/summarizingTheArticleAndTweetingIt/blob/master/doc/source/images/architecture.png)
+## Flow
 
 1.  User logs into Watson Studio, creates an instance which includes object storage.
 2.  User uploads the data file to the object storage.
@@ -27,22 +23,6 @@ When the reader has completed this code pattern, they will understand how to:
 4.  User runs the processing techniques & creates a statistical model for topics in the notebook.
 5.  User explores the visualization in the notebook and can export the output to object storage.
 
-## Included components
-
-* [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
-
-* [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
-
-* [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
-
-## Featured technologies
-
-* [Data Science](https://developer.ibm.com/code/technologies/data-science/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
-* [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
-* [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
-* [Text Ranking](https://pypi.org/project/gensim/): Gensim is a free Python library designed to automatically extract semantic topics from documents. The gensim implementation is based on the popular TextRank algorithm.
-* [Word Cloud](https://pypi.org/project/wordcloud/): It is used for identifying and visualizing the key words in the document.
-* [pyLDAvis](https://pypi.org/project/pyLDAvis/) : It is a Python library for interactive topic model visualization.
 
 # Watch the Video
 
