@@ -1,0 +1,98 @@
+# Short title
+
+Text summarization of a Travel blog and tweeting it with appropriate hashtags.
+
+# Long title
+
+Text summarization of a Travel blog and tweeting it to increase the reach and expand business.
+
+# Author
+
+* [Neha Setia](https://www.linkedin.com/in/nehasetia) <neha1221@in.ibm.com>
+* [Manjula Hosurmath](https://developer.ibm.com/code/advocates/manjula-hosurmath)<mhosurma@in.ibm.com>
+
+# URLs
+
+### Github repo
+
+* https://github.com/IBM/tweet-travel-blog-summary
+
+### Other URLs
+
+* [![](http://img.youtube.com/vi/oxDIXrDcQxc/hqdefault.jpg)](https://youtu.be/oxDIXrDcQxc)
+
+
+# Summary
+Growing a real following on Twitter takes more than sending out Tweets whenever your company has a product being released or an upcoming event. It’s about engaging with your target audience and interacting with them. Hashtags are so darn important in doing so. This Code Pattern focuses on extractive summarization of the travel blog, extracting keywords converting them into relevant hashtags and tweeting it on twitter to expand their business through social media marketing.
+
+# Technologies
+
+* [Data Science](https://developer.ibm.com/code/technologies/data-science/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
+* [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
+* [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+* [Text Ranking](https://pypi.org/project/gensim/): Gensim is a free Python library designed to automatically extract semantic topics from documents. The gensim implementation is based on the popular TextRank algorithm.
+* [Word Cloud](https://pypi.org/project/wordcloud/): It is used for identifying and visualizing the key words in the document.
+* [pyLDAvis](https://pypi.org/project/pyLDAvis/) : It is a Python library for interactive topic model visualization.
+
+# Description
+
+> Tell the story of your code pattern: describe the problem and who might encounter it; why is your pattern the right way to overcome the challenge? Highlight interesting code features and wherever possible, describe real-world situations where a developer will benefit from using the pattern. DO NOT include detailed technical steps, instructions, and commands; they will be provided in the readme file for your code.
+
+> *Write 3-4 paragraphs.*
+
+# Flow
+
+# Architecture Diagram
+
+![](https://github.com/Neha-Setia/summarizingTheArticleAndTweetingIt/blob/master/doc/source/images/architecture.png)
+
+1.  User logs into Watson Studio, creates an instance which includes object storage.
+2.  User uploads the data file to the object storage.
+3.  User imports a Jupyter Notebook from the URL.
+4.  User runs the processing techniques & creates a statistical model for topics in the notebook.
+5.  User explores the visualization in the notebook and can export the output to object storage.
+
+# Instructions
+
+1. [Create an account with IBM Cloud](#1-create-an-account-with-ibm-cloud)
+1. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
+1. [Create the notebook](#3-create-the-notebook)
+1. [Add the data](#4-add-the-data)
+1. [Insert the credentials](#5-insert-the-credentials)
+1. [Run the notebook](#6-run-the-notebook)
+1. [Analyze the results](#7-analyze-the-results)
+
+# Components and services
+
+* [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+
+* [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
+
+* [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+
+# Related Links
+* [Data Science](https://developer.ibm.com/code/technologies/data-science/)
+* [Analytics](https://developer.ibm.com/code/technologies/analytics/)
+* [Python](https://www.python.org/)
+* [Jupyter Notebooks](http://jupyter.org/)
+* [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio)
+
+# Announcement
+Title -  Unlock new opportunities to grow your business through Twitter using Watson Studio.
+
+Twitter’s Value for Marketing is not hidden from all of us. However, growing your Twitter account and turning it into an actual tool that generates leads and builds up your brand is a challenge. Growing a real following on Twitter takes more than sending out Tweets whenever your company has a product being released or an upcoming event. It’s about engaging with your target audience and interacting with them. Hashtags are so darn important in doing so. A hashtag is a label used on social media sites that make it easier to find information with a theme or specific content. Associations can use hashtags to reach their target audience and to help members filter information.
+
+This code pattern has been designed to give a detailed description to developers who are keen on increasing their business through social media marketing. In this Code Pattern, we ran text Summarization on the stories, converted them into a meaningful impactful tweet and tweeted it using twitter API with relevant Hashtags.
+
+[A Brief about Text Summarization](https://machinelearningmastery.com/gentle-introduction-text-summarization)
+
+When the reader has completed this code pattern, they will understand how to:
+
+* Quickly summarize the text from documents & news feeds.
+* Create topic modeling on the text to extract important topics.
+* Create visualizations for a better understanding of the data.
+* Interpret the summary and visualization of the data.
+* Tweet it on Twitter.
+
+View the entire [Summarizing the article And tweeting it](https://github.com/IBM/tweet-travel-blog-summary/) Journey, including demos, code, and more!
+
