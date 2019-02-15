@@ -8,8 +8,8 @@ Text summarization of a Travel blog and tweeting it to increase the reach and ex
 
 # Author
 
-* [Neha Setia](https://www.linkedin.com/in/nehasetia) <neha1221@in.ibm.com>
-* [Manjula Hosurmath](https://developer.ibm.com/code/advocates/manjula-hosurmath)<mhosurma@in.ibm.com>
+* [Neha Setia](https://www.linkedin.com/in/nehasetia) ( <neha1221@in.ibm.com>)
+* [Manjula Hosurmath](https://developer.ibm.com/code/advocates/manjula-hosurmath) (<mhosurma@in.ibm.com>)
 
 # URLs
 
@@ -36,9 +36,12 @@ Growing a real following on Twitter takes more than sending out Tweets whenever 
 
 # Description
 
-> Tell the story of your code pattern: describe the problem and who might encounter it; why is your pattern the right way to overcome the challenge? Highlight interesting code features and wherever possible, describe real-world situations where a developer will benefit from using the pattern. DO NOT include detailed technical steps, instructions, and commands; they will be provided in the readme file for your code.
+Successful Twitter marketing is powerful. You can unlock new opportunities to grow your business online. If Twitter is used well, it can drive tons of traffic to your website. But you need to be creative when crafting tweets to promote your blog posts, videos, and other content. 
 
-> *Write 3-4 paragraphs.*
+For the sake of an example to show how one can market and grow their business, we have taken an upcoming famous website [hostelgeeks.com](https://hostelgeeks.com/short-travel-stories/) where they share stories of the people who have travelled or visited the places listed in their travel blogs. Humans are fond of stories. Since childhood they have lots of memories to share which makes them happy. Sharing their experience with other people does two things. First any travel blog gives awareness to the travellers and also incites the desire to visit and have that experience too. Second it reviews and comments about any place from a credible source also decides the credibilty of that place which all the travellers look for before investing in any travel plans. So we ran text Summarization on the stories, converted them into meaningful impactful tweet and tweeted it using twitter API with relevant Hashtags.
+
+Associations can use hashtags to reach their target audience and to help members filter information. This Code Pattern focuses on extractive summarization of the travel blog, extracting keywords converting them into relevant hashtags and tweeting it on twitter to expand their business through social media marketing.
+
 
 # Flow
 
