@@ -41,9 +41,9 @@ described in detail below.
 1. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
 1. [Create the notebook](#3-create-the-notebook)
 1. [Add the data](#4-add-the-data)
-1. [Insert the credentials](#5-insert-the-credentials)
-1. [Run the notebook](#6-run-the-notebook)
-1. [Analyze the results](#7-analyze-the-results)
+1. [Get access tokens and consumer key to use Twitter Api.](#5-get-access-tokens-and-consumer-key-to-use-twitter-api)
+1. [Sample Output](#6-sample-output)
+
 
 ## 1. Create an account with IBM Cloud
 
