@@ -70,7 +70,8 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL:https://github.com/Neha-Setia/summarizingTheArticleAndTweetingIt/blob/master/notebook/Text_Summarize_and_Tweet.ipynb
+* Enter this Notebook URL:
+  https://github.com/Neha-Setia/summarizingTheArticleAndTweetingIt/blob/master/notebook/Text_Summarize_and_Tweet.ipynb
 * Select the runtime (1vCPU and 4GBRAM)
 * Click the `Create` button.
 
