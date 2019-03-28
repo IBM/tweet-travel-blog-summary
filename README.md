@@ -43,6 +43,8 @@ described in detail below.
 1. [Add the data](#4-add-the-data)
 1. [Get access tokens and consumer key to use Twitter Api.](#5-get-access-tokens-and-consumer-key-to-use-twitter-api)
 1. [Sample Output](#6-sample-output)
+1. [Sample Output](#7-future-scope-and-extension)
+1. [Sample Output](#8-more-enterprise-use-cases)
 
 
 ## 1. Create an account with IBM Cloud
@@ -161,7 +163,7 @@ you will get a code which indicates the tweet with hashtags has been tweeted.
 ![](doc/source/images/tweeted.png)
 
 
-# Future Scope and Extension
+# 7. Future Scope and Extension
 
 There are two main approaches to summarization:
 
@@ -190,7 +192,7 @@ Thus the developers can further extend this Code Pattern to optimize it for othe
 -[A survey of multiple types of text summarization with their satellite contents based on swarm intelligence optimization algorithms](https://www.sciencedirect.com/science/article/pii/S0950705118304593)
 - **[CORNELL NEWSROOM ](https://summari.es/)**
 
-# More Enterprise Usecases
+# 8.More Enterprise Use Cases
 
 Companies producing long-form content, like whitepapers, e-books and blogs, might be able to leverage summarization to break down this content and make it sharable on social media sites like Twitter or Facebook. This would allow companies to further re-use existing content and also spread awareness amongst their employees.
 
