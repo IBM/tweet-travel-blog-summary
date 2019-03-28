@@ -43,8 +43,8 @@ described in detail below.
 1. [Add the data](#4-add-the-data)
 1. [Get access tokens and consumer key to use Twitter Api.](#5-get-access-tokens-and-consumer-key-to-use-twitter-api)
 1. [Sample Output](#6-sample-output)
-1. [Sample Output](#7-future-scope-and-extension)
-1. [Sample Output](#8-more-enterprise-use-cases)
+1. [Future Scope and Extension](#7-future-scope-and-extension)
+1. [More Enterprise Use Cases](#8-more-enterprise-use-cases)
 
 
 ## 1. Create an account with IBM Cloud
