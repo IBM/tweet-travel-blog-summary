@@ -161,6 +161,49 @@ you will get a code which indicates the tweet with hashtags has been tweeted.
 ![](doc/source/images/tweeted.png)
 
 
+# Future Scope and Extension
+
+There are two main approaches to summarization:
+
+~~Extractive summarization~~: it works by selecting the most meaningful sentences in an article and arranging them in a comprehensive manner. This means the summary sentences are extracted from the article without any modifications.
+
+**Abstractive summarization: it works by paraphrasing its own version of the most important sentence in the article.**
+
+There are also two scales of document summarization:
+
+~~Single-document summarization~~ : the task of summarizing a standalone document. Note that a ” document” could refer to different things depending on the use case (URL, internal PDF file, legal contract, financial report, email, etc.).
+
+**Multi-document summarization** the task of assembling a collection of documents (usually through a query against a database or search engine) and generating a summary that incorporates perspectives from across documents.
+
+The Extractive Single Document Summarization and tweeting of the same has been showcased in this Code Pattern. The developers can further extend this Code Pattern to Abstractive Single Document,  Abstractive Multi-Document and Extractive Multi-Document Summarization. One of the challenges with these summarizations is that it is hard to generalize. For example, summarizing a news article is very different to summarizing a financial earnings report. 
+
+There are two common metrics any summarizer attempts to optimize:
+* Topic coverage: does the summary incorporate the main topics from the document?
+* Readability: do the summary sentences flow in a logical way?
+
+Thus the developers can further extend this Code Pattern to optimize it for other specific enterprise applications. The developers can read the following papers and blogs to do so.
+
+- [Improving Abstraction in Text Summarization](https://aclweb.org/anthology/D18-1207)
+- [An Optimization Text Summarization Method Based on Naïve Bayes and Topic Word for Single Syllable Language ](http://www.m-hikari.com/ams/ams-2014/ams-1-4-2014/haAMS1-4-2014.pdf)
+-[Evolutionary Algorithm for Extractive Text Summarization](https://www.researchgate.net/publication/220518077_Evolutionary_Algorithm_for_Extractive_Text_Summarization)
+-[Biogeography-Based Optimization Algorithm for Automatic Extractive Text Summarization](https://www.researchgate.net/publication/321918057_Biogeography-Based_Optimization_Algorithm_for_Automatic_Extractive_Text_Summarization)
+-[A survey of multiple types of text summarization with their satellite contents based on swarm intelligence optimization algorithms](https://www.sciencedirect.com/science/article/pii/S0950705118304593)
+- **[CORNELL NEWSROOM ](https://summari.es/)**
+
+# More Enterprise Usecases
+
+Companies producing long-form content, like whitepapers, e-books and blogs, might be able to leverage summarization to break down this content and make it sharable on social media sites like Twitter or Facebook. This would allow companies to further re-use existing content and also spread awareness amongst their employees.
+
+Other Examples:
+* Goodreads - analyse all the reviews of the book written by users, create summary and tweet it. The new users dont have to go through all the review comments.
+* Amazon Product Reviews- analyse all the reviews of the products written by users, create summary and tweet it. This will help the new users to make an informed decision without going through all the review comments. 
+Similarly, it can be used as :
+* Internal Company Knowledge Summarizer. 
+* Event summarizer.  
+* Meeting summarizer. 
+* Slack Group Chat Summarizer.
+* Patent research.
+
 # Troubleshooting
 
 [See DEBUGGING.md.](DEBUGGING.md)
